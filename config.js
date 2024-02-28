@@ -55,7 +55,7 @@ module.exports = {
       year: "numeric",
     });
   },
-  truncate(str, count = 60, clamp = " [...]") {
+  truncate(str, count = 60, clamp = " […]") {
     return `${str.split(" ").splice(0, count).join(" ")}${clamp}`;
   },
 };
